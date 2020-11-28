@@ -64,7 +64,7 @@ html {
     text-decoration: none;
 }
 .nav__link:hover {
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
     position: relative;
     z-index: 1;
 }
