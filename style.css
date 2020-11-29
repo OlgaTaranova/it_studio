@@ -350,3 +350,204 @@ html {
 .subscribe__input:focus {
     outline: none;
 }
+.subscribe__extraInfo {
+    font-size: 1.3rem;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    background: #F6F6F8;
+}
+.footer__additionals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4rem;
+    padding-bottom: 7rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #E0E0E0;
+}
+.footer__title {
+    margin-bottom: 3.5rem;
+    min-height: 4.4rem;
+}
+.footer__listItem {
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    list-style-type: none;
+    list-style-image: url(src/icons/right-arrow.png);
+}
+.footer__link {
+    text-decoration: none;
+    line-height: 1;
+}
+.footer__link:hover {
+    text-decoration: underline;
+}
+.mail {
+    list-style-image: url(src/icons/envelope.png);
+}
+.tel {
+    list-style-image: url(src/icons/Group.png);
+}
+.adress {
+    list-style-image: url(src/icons/placeholder.png);
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .services__serviceContainer {
+        margin-bottom: 5.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .services__serviceItem {
+       margin-bottom: 3rem;
+    }
+    .aboutCompany__contentWrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .aboutCompany__content {
+        max-width: 100%;
+    }
+    .aboutCompany__image {
+        width: auto;
+        height: auto;
+    }
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .works__workWrapper {
+        margin-bottom: 5rem;
+    }
+    .works__btn {
+        position: static;
+    }
+    .aboutCompany__statistics {
+        padding: 7rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 5rem;
+}
+    .works__workWrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 5rem;
+}
+.getMore {
+    background-size: auto 50%;
+}
+}
+@media(max-width: 767px) {
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav__link {
+        padding: 0.5rem;
+    }
+    .header {
+        justify-content: flex-start;
+    }
+    .separator {
+        display: none;
+    }
+    /* .contentWidth {
+        padding: 0 10% 0 10%;
+    } */
+    .title-m {
+        font: 600 2rem/1 "Montserrat", sans-serif;
+        color: #323232;
+    }
+    .title-s {
+        font: 500 1.3rem/1.2 "Montserrat", sans-serif;
+        color: #000000;
+    }
+    .text-m {
+        font: 400 1.3rem/1.2 "Montserrat", sans-serif;
+        color: #999999;
+    }
+    .text-s {
+        font: 400 1.3rem/1.2 "Montserrat", sans-serif;
+        color: #999999;
+    }
+    .services__serviceContainer {
+        margin-bottom: 5.5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3rem;
+    }
+    .services__serviceItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-top: 127px;
+        background: url(src/icons/service-icon.png) center top no-repeat;
+}
+.aboutCompany__image {
+    display: none;
+}
+.aboutCompany__statistics {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 3rem;
+        grid-column-gap: 3rem;
+}
+.works {
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+.works__title {
+    color: white;
+}
+.works__btn {
+    position: static;
+}
+.works__workWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 5rem;
+    margin-bottom: 3rem;
+}
+.projects__gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.projects__galleryItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.getMore {
+    background: white;
+}
+.subscribe__inputWrapper {
+    width: auto;
+}
+.subscribe__input {
+    display: none;
+}
+.footer__additionals {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0rem;
+    margin-bottom: 3rem;
+    grid-row-gap: 4rem;
+}
+.footer__listItem {
+    margin-bottom: 1rem;
+}
+.footer__title {
+    margin-bottom: 0rem;
+}
+}
