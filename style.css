@@ -130,7 +130,6 @@ html {
  /*SERVICES*/
 
  .services {
-     /* background-color: #E5E5E5; */
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -160,4 +159,57 @@ html {
  }
 .services__serviceTitle {
     margin-bottom: 1.2rem;
+}
+
+/*ABOUT COMPANY*/
+
+.aboutCompany {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    background: #F6F6F8;
+}
+.aboutCompany__contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9rem;
+    border-bottom: 1px solid #E0E0E0;
+}
+.aboutCompany__content {
+    max-width: 50rem;
+}
+.aboutCompany__title {
+    padding-top: 5.5rem;
+    margin-bottom: 4rem;
+}
+.aboutCompany__info {
+    margin-bottom: 3rem;
+}
+.aboutCompany__link {
+    font: 500 1.6rem "Montserrat", sans-serif;
+    color: #4985FF;
+}
+.aboutCompany__link:hover {
+    color: #1049bb;
+}
+.aboutCompany__image {
+    display: block;
+    width: 45%;
+    height: 36%;
+}
+.aboutCompany__statistics {
+    padding: 7rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutCompany__statisticsItem { 
+   min-width: 10.4rem;
+}
+.aboutCompany__statisticsImg {
+    float: left;
+    padding-right: 2rem;
+}
+.aboutCompany__statisticsNumber {
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 1.7rem;
 }
