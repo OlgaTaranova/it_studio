@@ -213,3 +213,76 @@ html {
     line-height: 1;
     margin-bottom: 1.7rem;
 }
+
+/*WORKS*/
+
+.works {
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: 8.5rem;
+    background: url(src/images/background.png) no-repeat;
+    background-size: 100% 50%;
+}
+.works__title {
+    margin-bottom: 7rem;
+    max-width: 54rem;
+    color: #FFFFFF;
+}
+.works__workWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    padding-bottom: 8.5rem;
+    border-bottom: 1px solid #E0E0E0;
+}
+.works__workImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+}
+.works__workTitle {
+    margin-bottom: 3rem;
+}
+.work__titleNumber {
+    color: #4985FF;
+}
+.works__workInfo {
+    margin-bottom: 3rem;
+}
+.works__link {
+    font: 500 1.6rem "Montserrat", sans-serif;
+    color: #4985FF;
+}
+.works__link:hover {
+    color: #1049bb;
+}
+.works__btn {
+    position: absolute;
+    right: 21%;
+    top: 12rem;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 13rem;
+    background: #F6F6F8;
+}
+.projects__title {
+    margin-bottom: 5rem;
+}
+.projects__info {
+    margin-bottom: 7rem;
+    text-align: center;
+}
+.projects__gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.projects__galleryItem {
+    width: 23%;
+    height: auto;
+}
